@@ -1,0 +1,218 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+}
+
+.navbar 
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 9px -1px rgba(0,0,0,0.49);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    background-color: white;
+}
+
+.nav-items 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items button 
+{
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.logo 
+{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.nav-items button:hover 
+{
+    color: red;
+    cursor: pointer;
+}
+
+.personal 
+{
+    display: flex;
+}
+
+.personal button 
+{
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.personal button:hover 
+{
+    color: red;
+    cursor: pointer;
+}
+
+.home-image 
+{
+    width: 100%;
+    height: 510px;
+    background-image: url("images/home-img.jpg");
+    background-size: cover;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+
+.slogan 
+{
+    padding-top: 105px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.slogan-btn
+{
+    text-align: center;
+}
+
+.slogan-btn button 
+{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.274);
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.slogan-btn button:hover 
+{
+    background-color: red;
+    color: white;
+} 
+
+.slogan-btn button:active
+{
+    box-shadow: none;
+}
+
+.section 
+{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.section-title 
+{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3em;
+}
+
+.products
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-elem 
+{
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 240px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgba(35, 50, 51, 0.842);
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    word-wrap: break-word;
+    box-shadow: 0px 0px 22px -2px rgba(0,0,0,0.75);
+}
+
+.product-elem img 
+{
+    border-radius: 10px;
+    width: 88%;
+    height: 180px;
+    text-align: center;
+    margin: 13px auto;
+}
+
+.product-elem h1, .product-elem p 
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product-elem button
+{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.product-elem button:nth-child(1):hover 
+{
+    background-color: limegreen;
+    color: white;
+}
+
+.product-elem button:nth-child(2):hover 
+{
+    background-color: orange;
+    color: white;
+}
+
+.price 
+{
+    color: rgb(175, 177, 175);
+}
+
+footer 
+{
+    margin-top: 100px;
+    width: 100;
+    height: 50px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.about-content
+{
+    font-size: 1.5em;
+    width: 90%;
+    margin: auto;
+}
